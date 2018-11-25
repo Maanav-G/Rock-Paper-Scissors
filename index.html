@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styes.css">
     </head>
     <body>
         <header>
@@ -11,20 +12,27 @@
         </header>
 
         <div class="scoreboard">
-            <div id="labeluser" class="badge">USER</div>
-            <div id="labelcomp" class="badge">COMP</div>
-            <span id="scoreuser">0</span>:<span id="scorecomp">0</span>
+                <div id="labeluser" class="badge">USER</div>
+                <div id="labelcomp" class="badge">COMP</div>
+                <span id="scoreuser">0</span>:<span id="scorecomp">0</span>
         </div>
-
+    
         <div class="result">
             <p>Paper covered rock. You win!</p>
         </div>
 
         <div class="choices">
-            <div class="choices">
-                <img src="" alt="">
+            <div class="choice" id="r">
+                <img src="images/rock.svg" alt="">
+            </div>
+            <div class="choice" id="p">
+                    <img src="images/paper.svg" alt="">
+            </div>
+            <div class="choice" id="s">
+                    <img src="images/scissors.svg" alt="">
             </div>
         </div>
+        <p id="message">Make your move</p>
 
     </body>
 </html>

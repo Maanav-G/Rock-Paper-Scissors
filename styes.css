@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700,800,900');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #3B5998;
+    color: #EEEEEE;
+}
+
+header{
+    background: #EEEEEE;
+    padding: 15px;
+}
+
+header > h1 {
+    color: #3B5998;
+    text-align: center;
+}
+
+.scoreboard {
+    position: relative;
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 40px;
+    padding: 15px 15px;
+    margin-top: 50px;
+}
+
+.badge {
+    background: #E84855;
+    font-size: 12px;
+    padding: 2px 8px;
+
+}
+
+#labeluser {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+#labelcomp {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+}
+
+.result > p {
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.choice {
+    border: 1px solid #EEEEEE;
+    padding: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 20px;
+    transition: all 0.2s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #EEEEEE;
+}
+
+
+img {
+    width: 70px;
+}
+
+#message {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 20px;
+}
