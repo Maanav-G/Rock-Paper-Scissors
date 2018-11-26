@@ -91,3 +91,18 @@ img {
     color: #EEEEEE;
     font-size: 20px;
 }
+
+.green {
+    border: 4px solid green;
+    box-shadow: 0 0 10px darkgreen
+}
+
+.red {
+    border: 4px solid red;
+    box-shadow: 0 0 10px darkred
+}
+
+.grey {
+    border: 4px solid grey;
+    box-shadow: 0 0 10px black;
+}
